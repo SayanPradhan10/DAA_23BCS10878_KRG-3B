@@ -12,7 +12,6 @@ public:
             n /= 2;
         }
 
-        // Subtract 2 safe cases
         result = (result - 2 + mod) % mod;
 
         return result;
