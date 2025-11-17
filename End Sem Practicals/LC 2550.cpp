@@ -11,7 +11,7 @@ public:
             base = (base * base) % mod;
             n /= 2;
         }
-
+        
         result = (result - 2 + mod) % mod;
 
         return result;
